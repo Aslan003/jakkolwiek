@@ -16,7 +16,7 @@ jobs: # stages to run in pipeline (e.g. run in parallel)
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0
         with:
-          versionSpec: '5.0'
+          versionSpec: '5.2'
       - name: Determine version from commit messages
         id: gitversion # id to later be referenced
         uses: gittools/actions/gitversion/execute@v0.11.0
